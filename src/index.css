@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply font-serif leading-[1.5] font-normal text-[rgba(255,_255,_255,_0.87)]
+  }
+  
+  body {
+    @apply bg-slate-900
+  }
+}
